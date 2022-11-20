@@ -1,0 +1,19 @@
+{
+  "name": "projektstudie",
+  "version": "1.0.0",
+  "description": "projektstudie Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnole12/Projektstudie_backend.git"
+  },
+  "author": "Tom und Finn Ole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnole12/Projektstudie_backend/issues"
+  },
+  "homepage": "https://github.com/finnole12/Projektstudie_backend#readme"
+}
