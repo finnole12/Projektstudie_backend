@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "testentry",
+        "latitude": 123,
+        "longitude": 234,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "menu": [ 
+            {
+                "name": "currywurst", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ]
+    }
+]
