@@ -74,6 +74,8 @@ function searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy
 
     selection = sortSelectionBy(selection, sortBy)
 
+    selection = limitSelection(selection, limit, offset)
+
     return selection
 }
 
