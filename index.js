@@ -72,11 +72,29 @@ function searchDB(latitude, longitude, searchTerm = "all", radius = 1000) {
         return Math.abs(entry.latitude - latitude) <= 1000 && Math.abs(entry.longitude - longitude) <= 1000
     })
 
-    var legitSpots = fistBatch.filter((entry) => {
+function filterDistance(data, longitude, latitude, radius) {
+    var legitSpots = data.reduce((filtered, entry) => {
+        let inRadius = true
         var a = Math.abs(entry.latitude - latitude)
-        var b = Math.abs(entry.longitude - longitude)
-        var c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
-        return c <= 1000
+        inRadius = a <= radius
+        if (inRadius) {
+            var b = Math.abs(entry.longitude - longitude)
+            inRadius = b <= radius
+
+            if (inRadius) {
+                entry.distance = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
+                inRadius = entry.distance <= radius
+            }
+        }
+
+        if (inRadius) {
+           filtered.push(entry);
+        }
+        return filtered;
+      }, []);
+
+    return legitSpots
+}
     })
     return legitSpots
 }
