@@ -1,9 +1,10 @@
 const express = require('express')
+const fetch = require('node-fetch')
 const app = express()
 const port = 3000
 const data = require('./data/locations.json')
 
-app.get('/getRestaurants', (req, res) => {
+app.get('/getRestaurants', async (req, res) => {
     const latitude = req.query.latitude
     const longitude = req.query.longitude
     const searchTerm = req.query.searchTerm ? req.query.searchTerm.toLowerCase() : ""
@@ -13,6 +14,8 @@ app.get('/getRestaurants', (req, res) => {
     const sortBy = req.query.sortBy ? req.query.sortBy.toLowerCase() : "distance"
 
     rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
+
+    const synonymList = await buildSynonymList(searchTerm.split(','))
 
     const foundData = searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy)
     res.send(foundData)
@@ -64,6 +67,16 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
     if (offset < 0) res.status(400).send({
         status: 400,
         message: "Wrong Value: offset must be positive"
+    })
+}
+
+async function buildSynonymList(words) {
+    const output = []
+    words.forEach(async (word) => {
+        output.push(word)
+        const response = await fetch(`https://www.openthesaurus.de/synonyme/search?q=${word}&format=application/json&supersynsets=true`, {method: 'GET'})
+        const text = await response.json()
+        console.log(text)
     })
 }
 
@@ -125,4 +138,10 @@ function sortSelectionBy(data, sortBy) {
     }
 
     return data.sort(cmprFunction)
+}
+
+function limitSelection(data, limit, offset) {
+    const start = offset * limit
+    const legitSpots = data.slice(start, start + limit)
+    return legitSpots
 }
