@@ -56,7 +56,7 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
         status: 400,
         message: "Wrong Value: radius must be positive"
     })
-    if (!["distance", "rating", "relevancy"].includes(sortBy.toLowerCase())) res.status(400).send({
+    if (!["distance", "rating", "relevancy"].includes(sortBy)) res.status(400).send({
         status: 400,
         message: "Wrong Value: sortBy must be distance, rating or relevancy"
     })
