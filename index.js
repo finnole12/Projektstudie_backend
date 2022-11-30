@@ -14,7 +14,8 @@ app.get('/getRestaurants', (req, res) => {
 
     rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
 
-    res.send(searchDB(latitude, longitude))
+    const foundData = searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy)
+    res.send(foundData)
 })
 
 app.listen(port, () => {
@@ -66,11 +67,15 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
     })
 }
 
-function searchDB(latitude, longitude, searchTerm = "all", radius = 1000) {
-    // checken nach latitude longitude simple
-    var fistBatch = data.filter((entry) => {
-        return Math.abs(entry.latitude - latitude) <= 1000 && Math.abs(entry.longitude - longitude) <= 1000
-    })
+function searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy) {
+    let selection = filterDistance(data, longitude, latitude, radius)
+
+    if(searchTerm !== '') selection = filterMenu(selection, searchTerm)
+
+    selection = sortSelectionBy(selection, sortBy)
+
+    return selection
+}
 
 function filterDistance(data, longitude, latitude, radius) {
     var legitSpots = data.reduce((filtered, entry) => {
