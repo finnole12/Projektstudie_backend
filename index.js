@@ -4,14 +4,13 @@ const port = 3000
 const data = require('./data/locations.json')
 
 app.get('/getRestaurants', (req, res) => {
-    console.log(req)
     const latitude = req.query.latitude
     const longitude = req.query.longitude
-    const searchTerm = req.query.searchTerm ? req.query.searchTerm : ""
+    const searchTerm = req.query.searchTerm ? req.query.searchTerm.toLowerCase() : ""
     const radius = req.query.radius ? req.query.radius : 1000
     const limit = req.query.limit ? req.query.limit : 20
     const offset = req.query.offset ? req.query.offset : 0
-    const sortBy = req.query.sortBy ? req.query.sortBy : "distance"
+    const sortBy = req.query.sortBy ? req.query.sortBy.toLowerCase() : "distance"
 
     rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
 
