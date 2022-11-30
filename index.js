@@ -102,3 +102,20 @@ function filterMenu(data, searchTerm) {
     })
     return legitSpots
 }
+
+function sortSelectionBy(data, sortBy) {
+    var cmprFunction
+    switch (sortBy) {
+        case 'distance':
+            cmprFunction = (a, b) => a.distance - b.distance
+            break;
+        case 'rating':
+            break;
+        case 'relevancy':
+            break;
+        default:
+          console.log(`Sorry, we are out of ${expr}.`);
+    }
+
+    return data.sort(cmprFunction)
+}
