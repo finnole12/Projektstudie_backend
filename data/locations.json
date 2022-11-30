@@ -20,5 +20,49 @@
                 "price": 0.5
             }
         ]
+    },
+    {
+        "id": 2,
+        "name": "testentry",
+        "latitude": 123000000,
+        "longitude": 234000000,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "menu": [ 
+            {
+                "name": "currywurst", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "testentry",
+        "latitude": 321,
+        "longitude": 543,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "menu": [ 
+            {
+                "name": "currywurst", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ]
     }
 ]
