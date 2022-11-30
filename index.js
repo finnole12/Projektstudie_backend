@@ -95,6 +95,10 @@ function filterDistance(data, longitude, latitude, radius) {
 
     return legitSpots
 }
+
+function filterMenu(data, searchTerm) {
+    const legitSpots = data.filter((entry) => {
+        return !!entry.menu.find(item => item.name.toLowerCase() === searchTerm)
     })
     return legitSpots
 }
