@@ -19,6 +19,13 @@
                 "name": "ketchup", 
                 "price": 0.5
             }
+        ],
+        "ratings": [
+            {
+                "id": 1,
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            }
         ]
     },
     {
@@ -41,6 +48,12 @@
                 "name": "ketchup", 
                 "price": 0.5
             }
+        ],
+        "ratings": [
+            {
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            }
         ]
     },
     {
@@ -62,6 +75,24 @@
             {
                 "name": "ketchup", 
                 "price": 0.5
+            }
+        ],
+        "ratings": [
+            {
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 2,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 3,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 5,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
             }
         ]
     }

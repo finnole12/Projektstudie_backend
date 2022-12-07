@@ -3,6 +3,7 @@ const fetch = require('node-fetch')
 const app = express()
 const port = 3000
 const data = require('./data/locations.json')
+const sortMethods = ["distance", "rating", "price", "popularity"]
 const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware", "Sauce", "Dip"]
 
 app.get('/getRestaurants', async (req, res) => {
@@ -90,7 +91,7 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
         status: 400,
         message: "Wrong Value: radius must be positive"
     })
-    if (!["distance", "rating", "relevancy"].includes(sortBy)) res.status(400).send({
+    if (!sortMethods.includes(sortBy)) res.status(400).send({
         status: 400,
         message: "Wrong Value: sortBy must be distance, rating or relevancy"
     })
@@ -122,8 +123,13 @@ function searchDB(longitude, latitude, searchTerms, radius, limit, offset, sortB
             menuSelection.push(...newItems)
         })
     })
+    
     menuSelection.forEach(selection => {
         selection.highlight = highlightMap.has(selection.id) && highlightMap.get(selection.id).length === searchTerms.length
+        selection.avg_rating = selection.ratings.reduce((sum, current) => {
+            return sum + current.rating
+        }, 0) / selection.ratings.length
+        
     })
 
     menuSelection = sortSelectionBy(menuSelection, sortBy)
@@ -171,8 +177,11 @@ function sortSelectionBy(data, sortBy) {
             cmprFunction = (a, b) => a.distance - b.distance
             break;
         case 'rating':
+            cmprFunction = (a, b) => b.avg_rating - a.avg_rating
             break;
-        case 'relevancy':
+        case 'popularity':
+            cmprFunction = (a, b) => b.ratings.length - a.ratings.length
+            break;
             break;
         default:
           console.log(`Sorry, we are out of ${expr}.`);
