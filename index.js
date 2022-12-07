@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 const app = express()
 const port = 3000
 const data = require('./data/locations.json')
-const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware"]
+const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware", "Sauce", "Dip"]
 
 app.get('/getRestaurants', async (req, res) => {
     const latitude = req.query.latitude
