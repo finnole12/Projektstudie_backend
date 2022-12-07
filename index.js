@@ -3,6 +3,7 @@ const fetch = require('node-fetch')
 const app = express()
 const port = 3000
 const data = require('./data/locations.json')
+const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware"]
 
 app.get('/getRestaurants', async (req, res) => {
     const latitude = req.query.latitude
@@ -15,11 +16,40 @@ app.get('/getRestaurants', async (req, res) => {
 
     rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
 
-    const synonymList = await buildSynonymList(searchTerm.split(','))
+    const synonymSets = await buildSynonymList(searchTerm.split(','))
 
-    const foundData = searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy)
+    const foundData = searchDB(longitude, latitude, synonymSets, radius, limit, offset, sortBy)
     res.send(foundData)
 })
+
+async function buildSynonymList(searchTerms) {
+    const synonymSets = []
+    if (searchTerms.length !== 0) {
+        for (const term of searchTerms) {
+            const synonymSet = new Set()
+            const response = await fetch(`https://www.openthesaurus.de/synonyme/search?q=${term}&format=application/json&supersynsets=true`, {
+                method: "GET"
+            })
+            const json = await response.json()
+
+            const filtered = json.synsets.filter(synset => {
+                const res1 = synset.supersynsets.find(supersynsetArr => {
+                    res2 = supersynsetArr.find(entry => relevantSuperSynsets.includes(entry.term))
+                    return res2
+                })
+                return res1
+            })
+            filtered.forEach(synset => {
+                synset.terms.forEach(term => {
+                    synonymSet.add(term.term.toLowerCase())
+                })
+            })
+            synonymSet.add(term.toLowerCase())
+            synonymSets.push(synonymSet)
+        }
+    }
+    return synonymSets
+}
 
 app.listen(port, () => {
     console.log("now listening")
@@ -70,26 +100,37 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
     })
 }
 
-async function buildSynonymList(words) {
-    const output = []
-    words.forEach(async (word) => {
-        output.push(word)
-        const response = await fetch(`https://www.openthesaurus.de/synonyme/search?q=${word}&format=application/json&supersynsets=true`, {method: 'GET'})
-        const text = await response.json()
-        console.log(text)
-    })
-}
-
-function searchDB(longitude, latitude, searchTerm, radius, limit, offset, sortBy) {
+function searchDB(longitude, latitude, searchTerms, radius, limit, offset, sortBy) {
     let selection = filterDistance(data, longitude, latitude, radius)
 
-    if(searchTerm !== '') selection = filterMenu(selection, searchTerm)
+    let menuSelection = []
+    let highlightMap = new Map()
+    searchTerms.forEach((categorySet, setIndex) => {
+        categorySet.forEach(term => {
+            let termSelection = []
+            if(term !== '') termSelection = filterMenu(selection, term)
+            const newItems = termSelection.filter(selection => {
+                let newItem = true
+                let indexList = [setIndex]
+                if (highlightMap.has(selection.id)) {
+                    indexList.push(...highlightMap.get(selection.id))
+                    newItem = false
+                }
+                highlightMap.set(selection.id, indexList)
+                return newItem
+            })
+            menuSelection.push(...newItems)
+        })
+    })
+    menuSelection.forEach(selection => {
+        selection.highlight = highlightMap.has(selection.id) && highlightMap.get(selection.id).length === searchTerms.length
+    })
 
-    selection = sortSelectionBy(selection, sortBy)
+    menuSelection = sortSelectionBy(menuSelection, sortBy)
 
-    selection = limitSelection(selection, limit, offset)
+    menuSelection = limitSelection(menuSelection, limit, offset)
 
-    return selection
+    return menuSelection
 }
 
 function filterDistance(data, longitude, latitude, radius) {
