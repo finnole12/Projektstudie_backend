@@ -194,10 +194,7 @@ function sortSelectionBy(data, sortBy) {
         default:
           console.log(`Sorry, we are out of ${expr}.`);
     }
-
-    const checkpoint = {...data}
-    const output = data.sort(cmprFunction)
-    return output
+    return data.sort(cmprFunction)
 }
 
 function limitSelection(data, limit, offset) {
