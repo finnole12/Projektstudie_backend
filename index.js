@@ -177,17 +177,27 @@ function sortSelectionBy(data, sortBy) {
             cmprFunction = (a, b) => a.distance - b.distance
             break;
         case 'rating':
-            cmprFunction = (a, b) => b.avg_rating - a.avg_rating
+            cmprFunction = (a, b) => {
+                return b.avg_rating - a.avg_rating
+            }
             break;
         case 'popularity':
             cmprFunction = (a, b) => b.ratings.length - a.ratings.length
             break;
+        case 'price':
+            cmprFunction = (a, b) => {
+                const higlightCmpr = Number(a.highlight) - Number(b.highlight)
+                if (higlightCmpr !== 0) return higlightCmpr
+                return a.price_range - b.price_range
+            }
             break;
         default:
           console.log(`Sorry, we are out of ${expr}.`);
     }
 
-    return data.sort(cmprFunction)
+    const checkpoint = {...data}
+    const output = data.sort(cmprFunction)
+    return output
 }
 
 function limitSelection(data, limit, offset) {

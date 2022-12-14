@@ -6,6 +6,7 @@
         "longitude": 234,
         "phonenumber": "0400383745828",
         "picture": "a picture",
+        "price_range": 4,
         "menu": [ 
             {
                 "name": "currywurst", 
@@ -35,6 +36,7 @@
         "longitude": 234000000,
         "phonenumber": "0400383745828",
         "picture": "a picture",
+        "price_range": 2,
         "menu": [ 
             {
                 "name": "currywurst", 
@@ -63,6 +65,7 @@
         "longitude": 543,
         "phonenumber": "0400383745828",
         "picture": "a picture",
+        "price_range": 5,
         "menu": [ 
             {
                 "name": "burger", 
