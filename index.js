@@ -19,8 +19,11 @@ app.get('/getRestaurants', async (req, res) => {
 
     const synonymSets = await buildSynonymList(searchTerm.split(','))
 
-    const foundData = searchDB(longitude, latitude, synonymSets, radius, limit, offset, sortBy)
-    res.send(foundData)
+    try {
+        const foundData = searchDB(longitude, latitude, synonymSets, radius, limit, offset, sortBy)
+        res.send(foundData)
+    } catch (e) {
+    }
 })
 
 async function buildSynonymList(searchTerms) {
@@ -171,28 +174,27 @@ function filterMenu(data, searchTerm) {
 }
 
 function sortSelectionBy(data, sortBy) {
-    var cmprFunction
+    var specificCompFunc
+    const cmprFunction = (a, b) => {
+        const higlightCmpr = Number(b.highlight) - Number(a.highlight)
+        if (higlightCmpr !== 0) return higlightCmpr
+        return specificCompFunc(a, b)
+    }
     switch (sortBy) {
         case 'distance':
-            cmprFunction = (a, b) => a.distance - b.distance
+            specificCompFunc = (a, b) => a.distance - b.distance
             break;
         case 'rating':
-            cmprFunction = (a, b) => {
-                return b.avg_rating - a.avg_rating
-            }
+            specificCompFunc = (a, b) => b.avg_rating - a.avg_rating
             break;
         case 'popularity':
-            cmprFunction = (a, b) => b.ratings.length - a.ratings.length
+            specificCompFunc = (a, b) => b.ratings.length - a.ratings.length
             break;
         case 'price':
-            cmprFunction = (a, b) => {
-                const higlightCmpr = Number(a.highlight) - Number(b.highlight)
-                if (higlightCmpr !== 0) return higlightCmpr
-                return a.price_range - b.price_range
-            }
+            specificCompFunc = (a, b) => a.price_range - b.price_range
             break;
         default:
-          console.log(`Sorry, we are out of ${expr}.`);
+          throw "failed to validate sort method"
     }
     return data.sort(cmprFunction)
 }
