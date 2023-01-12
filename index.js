@@ -28,8 +28,8 @@ app.get('/getRestaurants', async (req, res) => {
 
 async function buildSynonymList(searchTerms) {
     const synonymSets = []
-    if (searchTerms.length !== 0) {
-        for (const term of searchTerms) {
+    for (const term of searchTerms) {
+        if (term !== "") {
             const synonymSet = new Set()
             const response = await fetch(`https://www.openthesaurus.de/synonyme/search?q=${term}&format=application/json&supersynsets=true`, {
                 method: "GET"
@@ -107,37 +107,48 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
 function searchDB(longitude, latitude, searchTerms, radius, limit, offset, sortBy) {
     let selection = filterDistance(data, longitude, latitude, radius)
 
+    let menuSelection = filterSearchTerm(selection, searchTerms)
+
+    menuSelection = sortSelectionBy(menuSelection, sortBy)
+
+    menuSelection = limitSelection(menuSelection, limit, offset)
+
+    return menuSelection
+}
+
+function filterSearchTerm(selection, searchTerms) {
     let menuSelection = []
     let highlightMap = new Map()
-    searchTerms.forEach((categorySet, setIndex) => {
-        categorySet.forEach(term => {
-            let termSelection = []
-            if(term !== '') termSelection = filterMenu(selection, term)
-            const newItems = termSelection.filter(selection => {
-                let newItem = true
-                let indexList = [setIndex]
-                if (highlightMap.has(selection.id)) {
-                    indexList.push(...highlightMap.get(selection.id))
-                    newItem = false
-                }
-                highlightMap.set(selection.id, indexList)
-                return newItem
-            })
-            menuSelection.push(...newItems)
-        })
-    })
     
+    if (searchTerms.length !== 0) {
+        searchTerms.forEach((categorySet, setIndex) => {
+            categorySet.forEach(term => {
+                let termSelection = []
+                termSelection = term !== '' ? filterMenu(selection, term) : selection
+                const newItems = termSelection.filter(selection => {
+                    let newItem = true
+                    let indexList = [setIndex]
+                    if (highlightMap.has(selection.id)) {
+                        indexList.push(...highlightMap.get(selection.id))
+                        newItem = false
+                    }
+                    highlightMap.set(selection.id, indexList)
+                    return newItem
+                })
+                menuSelection.push(...newItems)
+            })
+        })
+    } else {
+        menuSelection = selection
+    }
+    
+    // set highlight and avg_rating
     menuSelection.forEach(selection => {
         selection.highlight = highlightMap.has(selection.id) && highlightMap.get(selection.id).length === searchTerms.length
         selection.avg_rating = selection.ratings.reduce((sum, current) => {
             return sum + current.rating
         }, 0) / selection.ratings.length
-        
     })
-
-    menuSelection = sortSelectionBy(menuSelection, sortBy)
-
-    menuSelection = limitSelection(menuSelection, limit, offset)
 
     return menuSelection
 }
