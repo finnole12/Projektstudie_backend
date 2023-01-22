@@ -1,5 +1,7 @@
 const express = require('express')
 const fetch = require('node-fetch')
+const haversine = require('haversine-distance')
+
 const app = express()
 const port = 3000
 const data = require('./data/locations.json')
@@ -23,6 +25,7 @@ app.get('/getRestaurants', async (req, res) => {
         const foundData = searchDB(longitude, latitude, synonymSets, radius, limit, offset, sortBy)
         res.send(foundData)
     } catch (e) {
+        console.log(e.message)
     }
 })
 
@@ -155,23 +158,17 @@ function filterSearchTerm(selection, searchTerms) {
 
 function filterDistance(data, longitude, latitude, radius) {
     var legitSpots = data.reduce((filtered, entry) => {
-        let inRadius = true
-        var a = Math.abs(entry.latitude - latitude)
-        inRadius = a <= radius
-        if (inRadius) {
-            var b = Math.abs(entry.longitude - longitude)
-            inRadius = b <= radius
 
-            if (inRadius) {
-                entry.distance = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
-                inRadius = entry.distance <= radius
-            }
-        }
+        var pOrigin = {lat: latitude, lng: longitude}
+        var pLocation = {lat: entry.latitude, lng: entry.longitude}
+        var distance = haversine(pOrigin, pLocation) / 1000
 
-        if (inRadius) {
-           filtered.push(entry);
-        }
+        if (distance > radius) return filtered
+
+        entry.distance = distance
+        filtered.push(entry);
         return filtered;
+
       }, []);
 
     return legitSpots
