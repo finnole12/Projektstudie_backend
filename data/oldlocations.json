@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "name": "testentry",
+        "latitude": 23,
+        "longitude": 53,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "price_range": 4,
+        "menu": [ 
+            {
+                "name": "currywurst", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ],
+        "ratings": [
+            {
+                "id": 1,
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "testentry",
+        "latitude": 53.5766912,
+        "longitude": 9.7209816,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "price_range": 2,
+        "menu": [ 
+            {
+                "name": "currywurst", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ],
+        "ratings": [
+            {
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 3,
+                "text": "auch ok"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "testentry",
+        "latitude": 12,
+        "longitude": 43,
+        "phonenumber": "0400383745828",
+        "picture": "a picture",
+        "price_range": 5,
+        "menu": [ 
+            {
+                "name": "burger", 
+                "price": 5.5
+            }, 
+            {
+                "name": "fritten", 
+                "price": 2.5
+            }, 
+            {
+                "name": "ketchup", 
+                "price": 0.5
+            }
+        ],
+        "ratings": [
+            {
+                "rating": 1,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 2,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 3,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            },
+            {
+                "rating": 5,
+                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+            }
+        ]
+    }
+]

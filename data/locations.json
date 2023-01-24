@@ -1,106 +1,3333 @@
 [
-    {
-        "id": 1,
-        "name": "testentry",
-        "latitude": 23,
-        "longitude": 53,
-        "phonenumber": "0400383745828",
-        "picture": "a picture",
-        "price_range": 4,
-        "menu": [ 
-            {
-                "name": "currywurst", 
-                "price": 5.5
-            }, 
-            {
-                "name": "fritten", 
-                "price": 2.5
-            }, 
-            {
-                "name": "ketchup", 
-                "price": 0.5
-            }
-        ],
-        "ratings": [
-            {
-                "id": 1,
-                "rating": 1,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "testentry",
-        "latitude": 53.5766912,
-        "longitude": 9.7209816,
-        "phonenumber": "0400383745828",
-        "picture": "a picture",
-        "price_range": 2,
-        "menu": [ 
-            {
-                "name": "currywurst", 
-                "price": 5.5
-            }, 
-            {
-                "name": "fritten", 
-                "price": 2.5
-            }, 
-            {
-                "name": "ketchup", 
-                "price": 0.5
-            }
-        ],
-        "ratings": [
-            {
-                "rating": 1,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            },
-            {
-                "rating": 3,
-                "text": "auch ok"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "testentry",
-        "latitude": 12,
-        "longitude": 43,
-        "phonenumber": "0400383745828",
-        "picture": "a picture",
-        "price_range": 5,
-        "menu": [ 
-            {
-                "name": "burger", 
-                "price": 5.5
-            }, 
-            {
-                "name": "fritten", 
-                "price": 2.5
-            }, 
-            {
-                "name": "ketchup", 
-                "price": 0.5
-            }
-        ],
-        "ratings": [
-            {
-                "rating": 1,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            },
-            {
-                "rating": 2,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            },
-            {
-                "rating": 3,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            },
-            {
-                "rating": 5,
-                "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
-            }
-        ]
-    }
+  {
+    "id": 0,
+    "name": "testEntry0",
+    "latitude": 53.63272893584963,
+    "longitude": 9.863819082177015,
+    "phonenumber": "+49 74665147",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "bagel", "price": "3.60" },
+      { "name": "hähnchen", "price": "7.83" },
+      { "name": "salat", "price": "7.03" },
+      { "name": "braten", "price": "5.65" },
+      { "name": "lachs", "price": "13.37" },
+      { "name": "reis", "price": "11.92" },
+      { "name": "fritten", "price": "10.31" },
+      { "name": "nudeln", "price": "18.89" },
+      { "name": "lasagne", "price": "17.31" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 3, "text": "best" },
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "testEntry1",
+    "latitude": 53.662477660583846,
+    "longitude": 9.8161914537721,
+    "phonenumber": "+49 91359465",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "getränk", "price": "8.16" },
+      { "name": "suppe", "price": "9.90" },
+      { "name": "bier", "price": "18.42" },
+      { "name": "essig", "price": "6.86" },
+      { "name": "currywurst", "price": "14.49" },
+      { "name": "möhren", "price": "7.00" },
+      { "name": "reis", "price": "12.23" },
+      { "name": "bockwurst", "price": "9.42" },
+      { "name": "fishbrötchen", "price": "5.85" },
+      { "name": "schnitzel", "price": "13.62" },
+      { "name": "lasagne", "price": "13.38" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "best" },
+      {
+        "rating": 1,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 1, "text": ":(" },
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": ":(" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "testEntry2",
+    "latitude": 53.64324514927368,
+    "longitude": 9.651599851963473,
+    "phonenumber": "+49 27375442",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "brot", "price": "4.64" },
+      { "name": "ketchup", "price": "6.71" },
+      { "name": "croque", "price": "16.83" },
+      { "name": "bier", "price": "5.08" },
+      { "name": "currywurst", "price": "9.70" },
+      { "name": "kuchen", "price": "12.42" },
+      { "name": "thai", "price": "4.99" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "personal geht gar nicht" },
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 3, "text": "super bester typ der koch" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "testEntry3",
+    "latitude": 53.577256801997,
+    "longitude": 9.617096983949558,
+    "phonenumber": "+49 83982904",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "thai", "price": "7.38" },
+      { "name": "ente", "price": "7.80" },
+      { "name": "essig", "price": "12.93" },
+      { "name": "lachs", "price": "15.68" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 2, "text": "ok" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 5, "text": "lecker wie immer" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "testEntry4",
+    "latitude": 53.50495852006323,
+    "longitude": 9.872141649537292,
+    "phonenumber": "+49 79877061",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "lachs", "price": "15.67" },
+      { "name": "croissant", "price": "19.34" },
+      { "name": "thai", "price": "16.19" },
+      { "name": "nudeln", "price": "13.16" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 2,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 1, "text": ":(" },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 5, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 4, "text": "nie werder" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "testEntry5",
+    "latitude": 53.59792613943951,
+    "longitude": 9.67724506313411,
+    "phonenumber": "+49 41623186",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "Brötchen", "price": "14.79" },
+      { "name": "kuchen", "price": "15.15" },
+      { "name": "fritten", "price": "15.79" },
+      { "name": "thai", "price": "15.78" },
+      { "name": "brot", "price": "18.32" },
+      { "name": "pizza", "price": "17.38" },
+      { "name": "baguette", "price": "11.98" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "foi realmente ótimo" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 1, "text": ":(" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": ":)" },
+      { "rating": 2, "text": "lecker wie immer" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      {
+        "rating": 4,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "testEntry6",
+    "latitude": 53.623689153363706,
+    "longitude": 9.896377641376832,
+    "phonenumber": "+49 35609774",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 2,
+    "menu": [
+      { "name": "lachs", "price": "19.51" },
+      { "name": "getränk", "price": "9.08" },
+      { "name": "labskaus", "price": "10.15" },
+      { "name": "fishbrötchen", "price": "13.65" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "lecker wie immer" },
+      { "rating": 3, "text": "ok" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 5, "text": "super bester typ der koch" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "testEntry7",
+    "latitude": 53.48083276731538,
+    "longitude": 9.594355252405435,
+    "phonenumber": "+49 19650330",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "senf", "price": "13.80" },
+      { "name": "baguette", "price": "13.61" },
+      { "name": "baguette", "price": "15.27" },
+      { "name": "currywurst", "price": "7.90" },
+      { "name": "braten", "price": "12.14" },
+      { "name": "bagel", "price": "5.62" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 5, "text": "nie werder" },
+      { "rating": 1, "text": "ok" },
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      { "rating": 4, "text": ":(" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "testEntry8",
+    "latitude": 53.65028301872024,
+    "longitude": 9.724704746419263,
+    "phonenumber": "+49 32149656",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "pizza", "price": "16.25" },
+      { "name": "getränk", "price": "5.41" },
+      { "name": "kuchen", "price": "15.39" },
+      { "name": "hähnchen", "price": "3.25" },
+      { "name": "burger", "price": "17.15" },
+      { "name": "baguette", "price": "11.10" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": ":)" },
+      {
+        "rating": 5,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      {
+        "rating": 2,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "testEntry9",
+    "latitude": 53.53955893725337,
+    "longitude": 9.853156515535527,
+    "phonenumber": "+49 96695179",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "donut", "price": "18.77" },
+      { "name": "salat", "price": "8.46" },
+      { "name": "wein", "price": "10.13" },
+      { "name": "gemüse", "price": "9.76" },
+      { "name": "bratwurst", "price": "7.69" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "ok" },
+      {
+        "rating": 1,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 4, "text": "super bester typ der koch" },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 2, "text": "lecker wie immer" },
+      { "rating": 2, "text": "super bester typ der koch" },
+      { "rating": 3, "text": "ok" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "testEntry10",
+    "latitude": 53.64540770389248,
+    "longitude": 9.609974459966608,
+    "phonenumber": "+49 52182816",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "gemüse", "price": "15.04" },
+      { "name": "reis", "price": "7.10" },
+      { "name": "currywurst", "price": "9.38" },
+      { "name": "sushi", "price": "7.94" },
+      { "name": "gemüse", "price": "19.32" },
+      { "name": "bratwurst", "price": "12.66" },
+      { "name": "burger", "price": "8.60" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": ":(" },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "ok" },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "testEntry11",
+    "latitude": 53.62233633159757,
+    "longitude": 9.791000500398082,
+    "phonenumber": "+49 68315394",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "croissant", "price": "16.18" },
+      { "name": "schnitzel", "price": "11.77" },
+      { "name": "rind", "price": "18.72" },
+      { "name": "Brötchen", "price": "4.55" },
+      { "name": "lasagne", "price": "16.12" },
+      { "name": "lasagne", "price": "10.22" },
+      { "name": "döner", "price": "11.51" },
+      { "name": "bowl", "price": "11.72" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "nie werder" },
+      { "rating": 5, "text": "ok" },
+      { "rating": 3, "text": "super bester typ der koch" },
+      { "rating": 4, "text": "ok" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 5,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 3, "text": "best" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "testEntry12",
+    "latitude": 53.66314394737276,
+    "longitude": 9.670424759037314,
+    "phonenumber": "+49 35026533",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 1,
+    "menu": [
+      { "name": "croissant", "price": "18.87" },
+      { "name": "bowl", "price": "4.10" },
+      { "name": "Brötchen", "price": "17.34" },
+      { "name": "labskaus", "price": "3.95" },
+      { "name": "getränk", "price": "3.49" },
+      { "name": "bier", "price": "9.97" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "nö" },
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 3, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 2, "text": ":(" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "super bester typ der koch" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "testEntry13",
+    "latitude": 53.67329759115489,
+    "longitude": 9.712002135943083,
+    "phonenumber": "+49 45390899",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "braten", "price": "19.94" },
+      { "name": "kuchen", "price": "5.65" },
+      { "name": "senf", "price": "14.05" },
+      { "name": "senf", "price": "16.30" }
+    ],
+    "ratings": [
+      {
+        "rating": 5,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 4, "text": "best" },
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      { "rating": 4, "text": ":(" },
+      { "rating": 4, "text": ":)" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "testEntry14",
+    "latitude": 53.562481432692195,
+    "longitude": 9.795285728209725,
+    "phonenumber": "+49 33668183",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 2,
+    "menu": [
+      { "name": "croque", "price": "9.13" },
+      { "name": "getränk", "price": "12.32" },
+      { "name": "ketchup", "price": "5.15" },
+      { "name": "fisch", "price": "3.01" },
+      { "name": "hähnchen", "price": "7.44" },
+      { "name": "bratwurst", "price": "19.31" },
+      { "name": "wein", "price": "16.08" },
+      { "name": "lachs", "price": "12.90" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 1,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "ok" },
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "nö" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "testEntry15",
+    "latitude": 53.6025401830891,
+    "longitude": 9.573737145053121,
+    "phonenumber": "+49 66027119",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "bratwurst", "price": "5.79" },
+      { "name": "senf", "price": "4.97" },
+      { "name": "lachs", "price": "5.35" },
+      { "name": "getränk", "price": "7.19" },
+      { "name": "braten", "price": "12.10" },
+      { "name": "currywurst", "price": "15.95" },
+      { "name": "brot", "price": "13.83" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "nö" },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "ok" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 5, "text": "nö" },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      { "rating": 2, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "nö" },
+      { "rating": 1, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "testEntry16",
+    "latitude": 53.676135654567766,
+    "longitude": 9.802100267008441,
+    "phonenumber": "+49 83664044",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "bier", "price": "15.70" },
+      { "name": "möhren", "price": "7.93" },
+      { "name": "fisch", "price": "15.60" },
+      { "name": "brot", "price": "7.26" },
+      { "name": "gemüse", "price": "5.80" },
+      { "name": "wein", "price": "17.21" },
+      { "name": "burger", "price": "3.66" },
+      { "name": "senf", "price": "18.02" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 4, "text": "foi realmente ótimo" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 2, "text": "best" },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 4, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "testEntry17",
+    "latitude": 53.628719342576865,
+    "longitude": 9.788009287034036,
+    "phonenumber": "+49 75622697",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "braten", "price": "12.98" },
+      { "name": "senf", "price": "19.59" },
+      { "name": "bier", "price": "9.92" },
+      { "name": "rind", "price": "18.79" },
+      { "name": "nudeln", "price": "15.06" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "best" },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 3, "text": "super bester typ der koch" },
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "testEntry18",
+    "latitude": 53.576857360349656,
+    "longitude": 9.590829087339388,
+    "phonenumber": "+49 14315785",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "döner", "price": "4.89" },
+      { "name": "bratwurst", "price": "9.58" },
+      { "name": "lachs", "price": "3.85" },
+      { "name": "baguette", "price": "6.94" },
+      { "name": "sushi", "price": "7.92" },
+      { "name": "fritten", "price": "15.65" },
+      { "name": "schnitzel", "price": "7.05" },
+      { "name": "fishbrötchen", "price": "10.52" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "nö" },
+      { "rating": 5, "text": "best" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 3, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "best" },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "testEntry19",
+    "latitude": 53.59512534311927,
+    "longitude": 9.844320613043108,
+    "phonenumber": "+49 32469996",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 2,
+    "menu": [
+      { "name": "gemüse", "price": "6.16" },
+      { "name": "suppe", "price": "3.14" },
+      { "name": "bier", "price": "11.03" },
+      { "name": "gemüse", "price": "11.95" },
+      { "name": "salat", "price": "8.12" },
+      { "name": "burger", "price": "15.99" },
+      { "name": "labskaus", "price": "19.39" },
+      { "name": "getränk", "price": "19.75" },
+      { "name": "fishbrötchen", "price": "11.77" },
+      { "name": "bagel", "price": "15.70" },
+      { "name": "bier", "price": "6.61" }
+    ],
+    "ratings": [
+      {
+        "rating": 1,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 2, "text": ":)" },
+      { "rating": 4, "text": "nö" },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      { "rating": 5, "text": ":(" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "testEntry20",
+    "latitude": 53.49575378449713,
+    "longitude": 9.65015432235333,
+    "phonenumber": "+49 58870608",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "essig", "price": "3.39" },
+      { "name": "burger", "price": "7.51" },
+      { "name": "bagel", "price": "8.53" },
+      { "name": "bratwurst", "price": "13.60" },
+      { "name": "franzbrötchen", "price": "10.22" },
+      { "name": "gemüse", "price": "8.77" },
+      { "name": "lasagne", "price": "6.75" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "best" },
+      {
+        "rating": 2,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 2,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "testEntry21",
+    "latitude": 53.67129725939546,
+    "longitude": 9.898603425835162,
+    "phonenumber": "+49 81173658",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 2,
+    "menu": [
+      { "name": "senf", "price": "10.13" },
+      { "name": "donut", "price": "12.81" },
+      { "name": "senf", "price": "14.37" },
+      { "name": "burger", "price": "17.90" },
+      { "name": "möhren", "price": "17.66" },
+      { "name": "möhren", "price": "13.50" },
+      { "name": "salat", "price": "14.73" },
+      { "name": "lachs", "price": "19.88" },
+      { "name": "franzbrötchen", "price": "19.42" },
+      { "name": "bagel", "price": "5.57" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "nie werder" },
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 1, "text": "super bester typ der koch" },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 5,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 3, "text": "super bester typ der koch" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "testEntry22",
+    "latitude": 53.48061592620956,
+    "longitude": 9.576091322466814,
+    "phonenumber": "+49 22654352",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "fritten", "price": "18.35" },
+      { "name": "donut", "price": "7.21" },
+      { "name": "senf", "price": "16.98" },
+      { "name": "donut", "price": "11.81" },
+      { "name": "croque", "price": "7.50" },
+      { "name": "kuchen", "price": "12.59" },
+      { "name": "bowl", "price": "13.48" },
+      { "name": "nudeln", "price": "9.50" },
+      { "name": "ketchup", "price": "17.74" },
+      { "name": "getränk", "price": "12.10" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "nö" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 2, "text": ":(" },
+      { "rating": 4, "text": "ok" },
+      { "rating": 1, "text": ":(" }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "testEntry23",
+    "latitude": 53.53925202660081,
+    "longitude": 9.67922287297134,
+    "phonenumber": "+49 27559748",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 3,
+    "menu": [
+      { "name": "sushi", "price": "16.54" },
+      { "name": "bratwurst", "price": "4.83" },
+      { "name": "croissant", "price": "12.41" },
+      { "name": "kuchen", "price": "5.13" },
+      { "name": "bratwurst", "price": "17.85" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": "best" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "testEntry24",
+    "latitude": 53.562255663608646,
+    "longitude": 9.586053211642124,
+    "phonenumber": "+49 77772745",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "wein", "price": "4.09" },
+      { "name": "burger", "price": "16.22" },
+      { "name": "lasagne", "price": "15.35" },
+      { "name": "nudeln", "price": "11.31" },
+      { "name": "bier", "price": "13.10" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": ":(" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 2, "text": "ok" },
+      { "rating": 4, "text": ":(" },
+      { "rating": 5, "text": "best" }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "testEntry25",
+    "latitude": 53.5852162978398,
+    "longitude": 9.72509955542054,
+    "phonenumber": "+49 65650305",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "fisch", "price": "9.99" },
+      { "name": "senf", "price": "12.64" },
+      { "name": "essig", "price": "17.76" },
+      { "name": "kuchen", "price": "19.62" },
+      { "name": "Brötchen", "price": "10.04" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "nö" },
+      { "rating": 4, "text": "nö" },
+      { "rating": 4, "text": "nö" },
+      {
+        "rating": 4,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": "ok" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "testEntry26",
+    "latitude": 53.566263973444386,
+    "longitude": 9.776850234536289,
+    "phonenumber": "+49 87291115",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "labskaus", "price": "14.95" },
+      { "name": "reis", "price": "11.61" },
+      { "name": "donut", "price": "11.30" },
+      { "name": "franzbrötchen", "price": "5.61" },
+      { "name": "pizza", "price": "12.02" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 2,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": ":)" },
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      { "rating": 3, "text": "nie werder" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 3, "text": "best" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "testEntry27",
+    "latitude": 53.55639226329516,
+    "longitude": 9.59627749400538,
+    "phonenumber": "+49 39337145",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 2,
+    "menu": [
+      { "name": "bagel", "price": "8.50" },
+      { "name": "ente", "price": "14.72" },
+      { "name": "currywurst", "price": "3.88" },
+      { "name": "lachs", "price": "11.87" },
+      { "name": "pizza", "price": "17.33" },
+      { "name": "rind", "price": "15.84" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 4,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 5, "text": ":)" },
+      { "rating": 3, "text": "nie werder" },
+      { "rating": 2, "text": "best" },
+      { "rating": 2, "text": ":(" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "testEntry28",
+    "latitude": 53.527196869080086,
+    "longitude": 9.624587244145395,
+    "phonenumber": "+49 54218001",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "fishbrötchen", "price": "11.55" },
+      { "name": "croissant", "price": "4.44" },
+      { "name": "Brötchen", "price": "9.38" },
+      { "name": "ente", "price": "3.04" },
+      { "name": "currywurst", "price": "5.60" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "nö" },
+      {
+        "rating": 5,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 3, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "testEntry29",
+    "latitude": 53.64607212899467,
+    "longitude": 9.662803098390585,
+    "phonenumber": "+49 66927764",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://www.europapark.de/sites/default/files/import/gastronomy/715/harborside_bell_rock_01.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "fisch", "price": "7.05" },
+      { "name": "wein", "price": "15.29" },
+      { "name": "fritten", "price": "18.93" },
+      { "name": "lachs", "price": "19.47" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 1, "text": "super bester typ der koch" },
+      { "rating": 5, "text": ":(" },
+      { "rating": 3, "text": "nö" },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "testEntry30",
+    "latitude": 53.55379649340496,
+    "longitude": 9.642537756136184,
+    "phonenumber": "+49 95252635",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "croissant", "price": "18.42" },
+      { "name": "lasagne", "price": "7.03" },
+      { "name": "croissant", "price": "12.37" },
+      { "name": "donut", "price": "14.42" },
+      { "name": "getränk", "price": "16.65" },
+      { "name": "croissant", "price": "7.35" },
+      { "name": "braten", "price": "18.60" },
+      { "name": "hähnchen", "price": "17.53" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "lecker wie immer" },
+      {
+        "rating": 2,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      { "rating": 4, "text": "super bester typ der koch" },
+      { "rating": 3, "text": "lecker wie immer" }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "testEntry31",
+    "latitude": 53.534124175523445,
+    "longitude": 9.826809293761565,
+    "phonenumber": "+49 60487316",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "pizza", "price": "3.02" },
+      { "name": "lachs", "price": "10.60" },
+      { "name": "fritten", "price": "9.03" },
+      { "name": "fisch", "price": "12.81" },
+      { "name": "döner", "price": "12.66" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": ":(" },
+      { "rating": 2, "text": "foi realmente ótimo" },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "testEntry32",
+    "latitude": 53.64665365319376,
+    "longitude": 9.629104143253535,
+    "phonenumber": "+49 87305300",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "fishbrötchen", "price": "17.87" },
+      { "name": "fritten", "price": "15.79" },
+      { "name": "fishbrötchen", "price": "10.61" },
+      { "name": "franzbrötchen", "price": "8.68" },
+      { "name": "braten", "price": "14.50" },
+      { "name": "döner", "price": "10.06" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": ":(" },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "testEntry33",
+    "latitude": 53.62047349586119,
+    "longitude": 9.694121037914057,
+    "phonenumber": "+49 71447697",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "bockwurst", "price": "9.09" },
+      { "name": "kuchen", "price": "13.00" },
+      { "name": "gemüse", "price": "12.47" },
+      { "name": "donut", "price": "3.57" },
+      { "name": "gemüse", "price": "19.13" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 4, "text": ":)" },
+      { "rating": 4, "text": ":)" },
+      { "rating": 4, "text": "ok" }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "testEntry34",
+    "latitude": 53.52933185031148,
+    "longitude": 9.80290856166258,
+    "phonenumber": "+49 58786217",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "fisch", "price": "15.87" },
+      { "name": "brot", "price": "11.23" },
+      { "name": "rind", "price": "5.64" },
+      { "name": "suppe", "price": "12.10" },
+      { "name": "Brötchen", "price": "17.64" },
+      { "name": "thai", "price": "7.27" },
+      { "name": "suppe", "price": "13.02" },
+      { "name": "bratwurst", "price": "13.93" },
+      { "name": "bier", "price": "4.25" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      { "rating": 1, "text": ":)" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 1, "text": "nö" }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "testEntry35",
+    "latitude": 53.52760216574933,
+    "longitude": 9.766911349439178,
+    "phonenumber": "+49 59440141",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "fritten", "price": "6.76" },
+      { "name": "reis", "price": "12.72" },
+      { "name": "lasagne", "price": "11.98" },
+      { "name": "wein", "price": "16.71" },
+      { "name": "sushi", "price": "11.45" },
+      { "name": "getränk", "price": "7.94" },
+      { "name": "braten", "price": "12.23" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 5,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": "super bester typ der koch" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "testEntry36",
+    "latitude": 53.67780827143385,
+    "longitude": 9.843023795626276,
+    "phonenumber": "+49 44085633",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 2,
+    "menu": [
+      { "name": "labskaus", "price": "4.47" },
+      { "name": "Brötchen", "price": "11.41" },
+      { "name": "getränk", "price": "12.94" },
+      { "name": "bockwurst", "price": "3.10" },
+      { "name": "currywurst", "price": "13.31" },
+      { "name": "lachs", "price": "16.62" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 2, "text": "nö" },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 2, "text": ":)" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "testEntry37",
+    "latitude": 53.6502404155997,
+    "longitude": 9.570135102940254,
+    "phonenumber": "+49 86792824",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 3,
+    "menu": [
+      { "name": "donut", "price": "19.51" },
+      { "name": "currywurst", "price": "8.08" },
+      { "name": "salat", "price": "15.18" },
+      { "name": "sushi", "price": "19.81" },
+      { "name": "salat", "price": "12.16" },
+      { "name": "croque", "price": "10.59" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 1, "text": ":(" },
+      {
+        "rating": 5,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "testEntry38",
+    "latitude": 53.52205264580021,
+    "longitude": 9.831179574205963,
+    "phonenumber": "+49 79112063",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "möhren", "price": "19.34" },
+      { "name": "fritten", "price": "6.33" },
+      { "name": "braten", "price": "8.99" },
+      { "name": "thai", "price": "3.17" },
+      { "name": "baguette", "price": "3.91" },
+      { "name": "sushi", "price": "19.56" },
+      { "name": "Brötchen", "price": "6.22" },
+      { "name": "pizza", "price": "8.07" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 3,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 4, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      {
+        "rating": 2,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "testEntry39",
+    "latitude": 53.50278858134977,
+    "longitude": 9.651013449329852,
+    "phonenumber": "+49 88337835",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 2,
+    "menu": [
+      { "name": "kuchen", "price": "8.63" },
+      { "name": "braten", "price": "18.32" },
+      { "name": "donut", "price": "6.02" },
+      { "name": "wein", "price": "13.40" },
+      { "name": "fisch", "price": "10.79" },
+      { "name": "bockwurst", "price": "8.50" },
+      { "name": "kuchen", "price": "17.50" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "foi realmente ótimo" },
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": "lecker wie immer" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 2, "text": ":(" }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "testEntry40",
+    "latitude": 53.55496911245409,
+    "longitude": 9.565384382270565,
+    "phonenumber": "+49 44702701",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "reis", "price": "15.71" },
+      { "name": "reis", "price": "3.06" },
+      { "name": "Brötchen", "price": "19.03" },
+      { "name": "rind", "price": "5.63" },
+      { "name": "Brötchen", "price": "4.52" },
+      { "name": "hähnchen", "price": "3.69" },
+      { "name": "lasagne", "price": "14.62" },
+      { "name": "gemüse", "price": "9.16" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 3, "text": ":(" },
+      { "rating": 2, "text": ":)" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 2, "text": "ok" },
+      { "rating": 4, "text": "ok" }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "testEntry41",
+    "latitude": 53.48531082049938,
+    "longitude": 9.764286229616568,
+    "phonenumber": "+49 65001378",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "bagel", "price": "11.33" },
+      { "name": "bowl", "price": "15.96" },
+      { "name": "brot", "price": "4.55" },
+      { "name": "essig", "price": "4.45" },
+      { "name": "ente", "price": "11.60" },
+      { "name": "franzbrötchen", "price": "10.28" },
+      { "name": "fishbrötchen", "price": "12.11" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": ":)" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 1, "text": "nö" },
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 2, "text": ":(" },
+      {
+        "rating": 4,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 4,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "testEntry42",
+    "latitude": 53.52502029093453,
+    "longitude": 9.596801670467164,
+    "phonenumber": "+49 56282070",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "donut", "price": "10.23" },
+      { "name": "braten", "price": "8.64" },
+      { "name": "braten", "price": "17.41" },
+      { "name": "getränk", "price": "13.43" },
+      { "name": "bockwurst", "price": "6.98" },
+      { "name": "sushi", "price": "11.24" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "super bester typ der koch" },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 3, "text": "super bester typ der koch" }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "testEntry43",
+    "latitude": 53.48879281281744,
+    "longitude": 9.705807077328046,
+    "phonenumber": "+49 32850351",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "gemüse", "price": "10.56" },
+      { "name": "fisch", "price": "10.20" },
+      { "name": "thai", "price": "4.37" },
+      { "name": "suppe", "price": "14.01" },
+      { "name": "bier", "price": "18.67" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": ":)" },
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": "super bester typ der koch" },
+      {
+        "rating": 1,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 1, "text": "best" },
+      { "rating": 4, "text": "super bester typ der koch" },
+      { "rating": 4, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "testEntry44",
+    "latitude": 53.67399205953589,
+    "longitude": 9.897161600190334,
+    "phonenumber": "+49 64502708",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "gemüse", "price": "7.09" },
+      { "name": "wein", "price": "15.97" },
+      { "name": "bratwurst", "price": "15.83" },
+      { "name": "baguette", "price": "7.62" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "lecker wie immer" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 1, "text": ":)" },
+      {
+        "rating": 2,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "lecker wie immer" }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "testEntry45",
+    "latitude": 53.54667387055066,
+    "longitude": 9.819980461671305,
+    "phonenumber": "+49 11925167",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "gemüse", "price": "17.72" },
+      { "name": "bagel", "price": "15.28" },
+      { "name": "senf", "price": "7.64" },
+      { "name": "Brötchen", "price": "14.00" },
+      { "name": "croque", "price": "7.97" },
+      { "name": "thai", "price": "18.52" }
+    ],
+    "ratings": [
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 4, "text": "nö" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 4, "text": "foi realmente ótimo" },
+      { "rating": 1, "text": "ok" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 4, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "testEntry46",
+    "latitude": 53.53390069256761,
+    "longitude": 9.848187822856076,
+    "phonenumber": "+49 88750906",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "fishbrötchen", "price": "4.07" },
+      { "name": "lachs", "price": "14.73" },
+      { "name": "salat", "price": "5.68" },
+      { "name": "fishbrötchen", "price": "16.72" },
+      { "name": "bier", "price": "15.13" },
+      { "name": "bier", "price": "4.98" },
+      { "name": "gemüse", "price": "15.13" },
+      { "name": "reis", "price": "15.96" }
+    ],
+    "ratings": [
+      {
+        "rating": 2,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 1, "text": "lecker wie immer" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 3, "text": "best" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      { "rating": 2, "text": "nö" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "testEntry47",
+    "latitude": 53.551533565056445,
+    "longitude": 9.667080636696937,
+    "phonenumber": "+49 54332682",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "bowl", "price": "10.94" },
+      { "name": "lasagne", "price": "7.23" },
+      { "name": "schnitzel", "price": "13.56" },
+      { "name": "wein", "price": "8.09" },
+      { "name": "kuchen", "price": "16.78" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "best" },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 3,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "testEntry48",
+    "latitude": 53.630354701591436,
+    "longitude": 9.68800268509054,
+    "phonenumber": "+49 11860333",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 1,
+    "menu": [
+      { "name": "suppe", "price": "19.61" },
+      { "name": "nudeln", "price": "5.13" },
+      { "name": "reis", "price": "10.36" },
+      { "name": "wein", "price": "15.49" },
+      { "name": "franzbrötchen", "price": "19.09" },
+      { "name": "bier", "price": "6.26" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      { "rating": 4, "text": "foi realmente ótimo" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 5, "text": "ok" },
+      { "rating": 1, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "testEntry49",
+    "latitude": 53.494910717354045,
+    "longitude": 9.676100143894098,
+    "phonenumber": "+49 74891058",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "fisch", "price": "8.31" },
+      { "name": "lachs", "price": "11.18" },
+      { "name": "lasagne", "price": "8.53" },
+      { "name": "reis", "price": "14.40" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "lecker wie immer" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 3, "text": "ok" },
+      {
+        "rating": 1,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "testEntry50",
+    "latitude": 53.610351075370424,
+    "longitude": 9.893337365239635,
+    "phonenumber": "+49 64729657",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "donut", "price": "4.71" },
+      { "name": "franzbrötchen", "price": "17.22" },
+      { "name": "Brötchen", "price": "11.86" },
+      { "name": "pizza", "price": "19.95" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "personal geht gar nicht" },
+      { "rating": 5, "text": "nie werder" },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 2, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "testEntry51",
+    "latitude": 53.60299971349212,
+    "longitude": 9.894247963954992,
+    "phonenumber": "+49 80922377",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "kuchen", "price": "15.62" },
+      { "name": "franzbrötchen", "price": "5.95" },
+      { "name": "getränk", "price": "7.48" },
+      { "name": "sushi", "price": "5.68" },
+      { "name": "burger", "price": "17.76" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 1, "text": "ok" },
+      { "rating": 5, "text": "ok" },
+      {
+        "rating": 5,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 4, "text": "personal geht gar nicht" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "testEntry52",
+    "latitude": 53.6627989131149,
+    "longitude": 9.756335470475493,
+    "phonenumber": "+49 56743092",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "thai", "price": "8.75" },
+      { "name": "hähnchen", "price": "6.74" },
+      { "name": "baguette", "price": "8.30" },
+      { "name": "wein", "price": "14.76" },
+      { "name": "donut", "price": "12.34" },
+      { "name": "rind", "price": "13.04" }
+    ],
+    "ratings": [
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "nö" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      { "rating": 5, "text": "ok" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "testEntry53",
+    "latitude": 53.64227802821183,
+    "longitude": 9.890369173620215,
+    "phonenumber": "+49 86998420",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 1,
+    "menu": [
+      { "name": "getränk", "price": "15.93" },
+      { "name": "bowl", "price": "4.33" },
+      { "name": "franzbrötchen", "price": "19.20" },
+      { "name": "lasagne", "price": "7.08" },
+      { "name": "schnitzel", "price": "13.44" },
+      { "name": "fisch", "price": "8.20" },
+      { "name": "donut", "price": "4.48" },
+      { "name": "thai", "price": "10.91" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "nö" },
+      { "rating": 3, "text": "nö" },
+      { "rating": 2, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 4, "text": "super bester typ der koch" }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "testEntry54",
+    "latitude": 53.593284967871234,
+    "longitude": 9.619612327755354,
+    "phonenumber": "+49 99357088",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "labskaus", "price": "11.16" },
+      { "name": "getränk", "price": "13.30" },
+      { "name": "braten", "price": "10.52" },
+      { "name": "kuchen", "price": "13.19" },
+      { "name": "sushi", "price": "16.20" },
+      { "name": "braten", "price": "8.59" },
+      { "name": "nudeln", "price": "12.91" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "best" },
+      { "rating": 4, "text": "personal geht gar nicht" },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "testEntry55",
+    "latitude": 53.666425618823034,
+    "longitude": 9.595582967873876,
+    "phonenumber": "+49 84897051",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 3,
+    "menu": [
+      { "name": "suppe", "price": "18.50" },
+      { "name": "lachs", "price": "9.11" },
+      { "name": "gemüse", "price": "17.99" },
+      { "name": "rind", "price": "5.20" },
+      { "name": "Brötchen", "price": "4.01" },
+      { "name": "bowl", "price": "8.46" },
+      { "name": "gemüse", "price": "4.78" },
+      { "name": "burger", "price": "5.81" },
+      { "name": "salat", "price": "3.61" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "nö" },
+      { "rating": 5, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 4, "text": ":(" },
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "testEntry56",
+    "latitude": 53.645158794861516,
+    "longitude": 9.725766992722667,
+    "phonenumber": "+49 59377420",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "essig", "price": "12.72" },
+      { "name": "senf", "price": "12.81" },
+      { "name": "bowl", "price": "3.29" },
+      { "name": "salat", "price": "13.20" },
+      { "name": "bratwurst", "price": "17.81" },
+      { "name": "fisch", "price": "9.91" },
+      { "name": "döner", "price": "6.22" },
+      { "name": "brot", "price": "10.34" },
+      { "name": "donut", "price": "13.53" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "ok" },
+      {
+        "rating": 2,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 1,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 3, "text": "ok" }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "testEntry57",
+    "latitude": 53.56886061919002,
+    "longitude": 9.867585288462033,
+    "phonenumber": "+49 30895702",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 2,
+    "menu": [
+      { "name": "bowl", "price": "16.43" },
+      { "name": "brot", "price": "11.87" },
+      { "name": "sushi", "price": "6.41" },
+      { "name": "bockwurst", "price": "14.89" },
+      { "name": "ente", "price": "3.21" },
+      { "name": "fisch", "price": "5.46" },
+      { "name": "möhren", "price": "11.40" },
+      { "name": "gemüse", "price": "11.36" },
+      { "name": "lachs", "price": "9.28" },
+      { "name": "croque", "price": "7.22" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "super bester typ der koch" },
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "ok" },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "testEntry58",
+    "latitude": 53.58831496526572,
+    "longitude": 9.57667697985854,
+    "phonenumber": "+49 50089733",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 3,
+    "menu": [
+      { "name": "braten", "price": "3.52" },
+      { "name": "sushi", "price": "9.38" },
+      { "name": "gemüse", "price": "3.04" },
+      { "name": "schnitzel", "price": "4.47" },
+      { "name": "schnitzel", "price": "19.40" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 2, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": "ok" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 1, "text": "super bester typ der koch" },
+      {
+        "rating": 4,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 2, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 3, "text": "nö" }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "testEntry59",
+    "latitude": 53.56018001389961,
+    "longitude": 9.689090723934324,
+    "phonenumber": "+49 10295450",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 3,
+    "menu": [
+      { "name": "croissant", "price": "10.36" },
+      { "name": "schnitzel", "price": "5.75" },
+      { "name": "Brötchen", "price": "18.20" },
+      { "name": "getränk", "price": "3.59" },
+      { "name": "senf", "price": "16.18" },
+      { "name": "fishbrötchen", "price": "7.30" },
+      { "name": "donut", "price": "18.73" },
+      { "name": "senf", "price": "9.18" },
+      { "name": "fishbrötchen", "price": "12.93" },
+      { "name": "rind", "price": "5.48" },
+      { "name": "fisch", "price": "8.94" }
+    ],
+    "ratings": [
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "super bester typ der koch" },
+      { "rating": 5, "text": "nö" },
+      { "rating": 2, "text": "mit einem lächeln serviert" }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "testEntry60",
+    "latitude": 53.519566309631315,
+    "longitude": 9.59820181110001,
+    "phonenumber": "+49 61215136",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "kuchen", "price": "17.69" },
+      { "name": "bockwurst", "price": "11.53" },
+      { "name": "schnitzel", "price": "17.85" },
+      { "name": "lasagne", "price": "3.11" },
+      { "name": "fishbrötchen", "price": "16.49" },
+      { "name": "fritten", "price": "13.09" },
+      { "name": "bowl", "price": "15.86" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "best" },
+      { "rating": 1, "text": ":)" },
+      { "rating": 5, "text": "best" },
+      { "rating": 4, "text": "foi realmente ótimo" },
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "testEntry61",
+    "latitude": 53.50369721608461,
+    "longitude": 9.737924463732313,
+    "phonenumber": "+49 89918182",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "baguette", "price": "13.98" },
+      { "name": "döner", "price": "16.58" },
+      { "name": "reis", "price": "10.46" },
+      { "name": "kuchen", "price": "14.06" },
+      { "name": "franzbrötchen", "price": "17.38" },
+      { "name": "sushi", "price": "14.90" },
+      { "name": "fishbrötchen", "price": "11.17" },
+      { "name": "fishbrötchen", "price": "11.91" }
+    ],
+    "ratings": [
+      {
+        "rating": 5,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 2, "text": "nö" },
+      { "rating": 5, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 1, "text": ":(" }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "testEntry62",
+    "latitude": 53.512520504737466,
+    "longitude": 9.744742201409359,
+    "phonenumber": "+49 12517978",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "essig", "price": "9.02" },
+      { "name": "croque", "price": "17.54" },
+      { "name": "hähnchen", "price": "9.54" },
+      { "name": "braten", "price": "10.60" },
+      { "name": "burger", "price": "17.01" },
+      { "name": "sushi", "price": "7.11" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": ":)" },
+      { "rating": 4, "text": "best" },
+      {
+        "rating": 2,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 1, "text": "mit einem lächeln serviert" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 1, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "testEntry63",
+    "latitude": 53.67722547711608,
+    "longitude": 9.784451236725463,
+    "phonenumber": "+49 29658182",
+    "logo": "https://lh3.googleusercontent.com/dxxKrSVewk0fpqIrruFplEdaNtC6e7VMXPqC3Vu9oDkR_mpTyWkRF_JvgWOWXWwNIc7M6iw8ZO4IizpMmRBDZ2qRvo8=w256-rw",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "kuchen", "price": "17.88" },
+      { "name": "bowl", "price": "15.03" },
+      { "name": "bagel", "price": "14.52" },
+      { "name": "kuchen", "price": "11.28" },
+      { "name": "burger", "price": "4.56" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 1, "text": "mit einem lächeln serviert" },
+      { "rating": 4, "text": "mit einem lächeln serviert" }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "testEntry64",
+    "latitude": 53.58362849081642,
+    "longitude": 9.780048977405702,
+    "phonenumber": "+49 41023743",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipMKjTjPyx08HtAH97dlxr9TVvCSDVWrLn4ZCZMQ=w408-h306-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "bagel", "price": "4.52" },
+      { "name": "essig", "price": "15.26" },
+      { "name": "fisch", "price": "7.48" },
+      { "name": "senf", "price": "8.10" },
+      { "name": "kuchen", "price": "19.83" },
+      { "name": "croissant", "price": "6.57" },
+      { "name": "sushi", "price": "16.53" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "ok" },
+      { "rating": 4, "text": "super bester typ der koch" },
+      { "rating": 3, "text": ":)" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 5, "text": "lecker wie immer" },
+      {
+        "rating": 2,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "best" },
+      { "rating": 5, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "testEntry65",
+    "latitude": 53.504530407889995,
+    "longitude": 9.83787963717141,
+    "phonenumber": "+49 11733627",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "kuchen", "price": "12.91" },
+      { "name": "baguette", "price": "3.54" },
+      { "name": "möhren", "price": "15.77" },
+      { "name": "bratwurst", "price": "19.28" },
+      { "name": "bagel", "price": "14.44" },
+      { "name": "möhren", "price": "5.36" },
+      { "name": "rind", "price": "16.59" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 3, "text": "nö" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": ":)" },
+      { "rating": 5, "text": "nie werder" }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "testEntry66",
+    "latitude": 53.58902727587542,
+    "longitude": 9.772642908938474,
+    "phonenumber": "+49 81819578",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "gemüse", "price": "5.61" },
+      { "name": "reis", "price": "14.49" },
+      { "name": "fritten", "price": "12.97" },
+      { "name": "lasagne", "price": "10.36" },
+      { "name": "reis", "price": "6.07" },
+      { "name": "salat", "price": "17.38" },
+      { "name": "brot", "price": "5.60" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      { "rating": 4, "text": "nö" },
+      { "rating": 3, "text": "freundlichee behandelt hier" },
+      { "rating": 5, "text": "nö" },
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "testEntry67",
+    "latitude": 53.62044154401361,
+    "longitude": 9.794040776370062,
+    "phonenumber": "+49 24384581",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "getränk", "price": "11.92" },
+      { "name": "gemüse", "price": "7.10" },
+      { "name": "labskaus", "price": "9.86" },
+      { "name": "fishbrötchen", "price": "6.45" },
+      { "name": "braten", "price": "8.65" },
+      { "name": "nudeln", "price": "9.76" },
+      { "name": "hähnchen", "price": "11.77" },
+      { "name": "sushi", "price": "5.07" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": ":(" },
+      {
+        "rating": 3,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 1, "text": ":)" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 2, "text": "ok" },
+      {
+        "rating": 2,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": "lecker wie immer" }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "testEntry68",
+    "latitude": 53.54844062327396,
+    "longitude": 9.699352004868686,
+    "phonenumber": "+49 32629438",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/1200px-Restaurant_N%C3%A4sinneula.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "sushi", "price": "17.45" },
+      { "name": "fisch", "price": "13.27" },
+      { "name": "fishbrötchen", "price": "6.55" },
+      { "name": "bowl", "price": "6.39" },
+      { "name": "franzbrötchen", "price": "15.51" },
+      { "name": "essig", "price": "9.89" },
+      { "name": "bratwurst", "price": "11.01" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "nie werder" },
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 2,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 3, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 5, "text": "nie werder" },
+      {
+        "rating": 5,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "testEntry69",
+    "latitude": 53.654534148003414,
+    "longitude": 9.780861010827055,
+    "phonenumber": "+49 48059302",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "bagel", "price": "14.31" },
+      { "name": "hähnchen", "price": "8.93" },
+      { "name": "fisch", "price": "15.21" },
+      { "name": "lachs", "price": "7.28" },
+      { "name": "fritten", "price": "6.35" },
+      { "name": "wein", "price": "13.52" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": "best" },
+      { "rating": 3, "text": ":(" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "testEntry70",
+    "latitude": 53.50454826118843,
+    "longitude": 9.762360080921514,
+    "phonenumber": "+49 38411093",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 2,
+    "menu": [
+      { "name": "labskaus", "price": "7.27" },
+      { "name": "braten", "price": "6.27" },
+      { "name": "fishbrötchen", "price": "7.26" },
+      { "name": "getränk", "price": "3.21" },
+      { "name": "fishbrötchen", "price": "18.17" },
+      { "name": "nudeln", "price": "17.41" }
+    ],
+    "ratings": [
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 4, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": "ok" },
+      { "rating": 1, "text": ":)" },
+      {
+        "rating": 1,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "testEntry71",
+    "latitude": 53.53826548263028,
+    "longitude": 9.816887832898857,
+    "phonenumber": "+49 59429389",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://www.europapark.de/sites/default/files/import/gastronomy/715/harborside_bell_rock_01.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "donut", "price": "8.30" },
+      { "name": "croque", "price": "5.04" },
+      { "name": "nudeln", "price": "3.25" },
+      { "name": "nudeln", "price": "8.51" },
+      { "name": "schnitzel", "price": "17.09" },
+      { "name": "fisch", "price": "12.82" },
+      { "name": "salat", "price": "19.16" },
+      { "name": "burger", "price": "7.70" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 1, "text": "super bester typ der koch" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "testEntry72",
+    "latitude": 53.54798727238793,
+    "longitude": 9.85557772103569,
+    "phonenumber": "+49 18853012",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "schnitzel", "price": "17.84" },
+      { "name": "möhren", "price": "5.46" },
+      { "name": "sushi", "price": "19.78" },
+      { "name": "bagel", "price": "16.53" },
+      { "name": "pizza", "price": "14.79" },
+      { "name": "bowl", "price": "15.27" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 5, "text": "super bester typ der koch" },
+      { "rating": 3, "text": ":(" },
+      {
+        "rating": 4,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      {
+        "rating": 2,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "ok" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "testEntry73",
+    "latitude": 53.525479047061296,
+    "longitude": 9.68720780535924,
+    "phonenumber": "+49 96699869",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://lh5.googleusercontent.com/p/AF1QipOxKTCDaRxsDAM_S-qfnqDnLXBsG-SFZuEx2NGP=w408-h271-k-no",
+    "price_range": 1,
+    "menu": [
+      { "name": "franzbrötchen", "price": "13.52" },
+      { "name": "donut", "price": "8.00" },
+      { "name": "kuchen", "price": "16.04" },
+      { "name": "reis", "price": "15.59" },
+      { "name": "wein", "price": "7.94" }
+    ],
+    "ratings": [
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      { "rating": 3, "text": "best" }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "testEntry74",
+    "latitude": 53.52780446987497,
+    "longitude": 9.712365501849742,
+    "phonenumber": "+49 79999835",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "senf", "price": "17.20" },
+      { "name": "senf", "price": "8.54" },
+      { "name": "bratwurst", "price": "12.37" },
+      { "name": "getränk", "price": "18.70" },
+      { "name": "ente", "price": "11.49" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": ":)" },
+      { "rating": 2, "text": "super bester typ der koch" },
+      { "rating": 4, "text": "nö" }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "testEntry75",
+    "latitude": 53.57034614265048,
+    "longitude": 9.768416387082864,
+    "phonenumber": "+49 75137814",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "möhren", "price": "8.57" },
+      { "name": "baguette", "price": "8.49" },
+      { "name": "sushi", "price": "5.50" },
+      { "name": "gemüse", "price": "16.30" },
+      { "name": "reis", "price": "16.35" },
+      { "name": "wein", "price": "16.85" },
+      { "name": "labskaus", "price": "3.51" },
+      { "name": "pizza", "price": "6.84" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "best" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 3, "text": "kein nutella !!!111!!11!1" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 2, "text": "personal geht gar nicht" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 4, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "testEntry76",
+    "latitude": 53.623825924994506,
+    "longitude": 9.787656349734457,
+    "phonenumber": "+49 24068864",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "getränk", "price": "19.99" },
+      { "name": "döner", "price": "16.47" },
+      { "name": "bowl", "price": "17.07" },
+      { "name": "döner", "price": "5.48" },
+      { "name": "getränk", "price": "5.88" },
+      { "name": "franzbrötchen", "price": "8.75" },
+      { "name": "Brötchen", "price": "14.70" }
+    ],
+    "ratings": [
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 4, "text": ":(" },
+      { "rating": 2, "text": "ok" },
+      { "rating": 2, "text": "best" },
+      { "rating": 5, "text": "nö" },
+      { "rating": 2, "text": "nö" },
+      { "rating": 1, "text": "best" },
+      { "rating": 1, "text": "nö" }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "testEntry77",
+    "latitude": 53.60002776852572,
+    "longitude": 9.764883615833508,
+    "phonenumber": "+49 33843274",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "croissant", "price": "18.08" },
+      { "name": "croque", "price": "12.64" },
+      { "name": "essig", "price": "4.52" },
+      { "name": "ente", "price": "16.99" },
+      { "name": "fishbrötchen", "price": "13.85" },
+      { "name": "fisch", "price": "9.89" },
+      { "name": "Brötchen", "price": "5.68" },
+      { "name": "fisch", "price": "8.65" },
+      { "name": "salat", "price": "13.38" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "foi realmente ótimo" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 2, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "testEntry78",
+    "latitude": 53.551328319810374,
+    "longitude": 9.706612899903549,
+    "phonenumber": "+49 33893895",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "sushi", "price": "7.91" },
+      { "name": "currywurst", "price": "12.04" },
+      { "name": "suppe", "price": "9.71" },
+      { "name": "senf", "price": "7.68" },
+      { "name": "thai", "price": "6.46" },
+      { "name": "suppe", "price": "15.51" },
+      { "name": "Brötchen", "price": "7.58" },
+      { "name": "burger", "price": "8.01" },
+      { "name": "croissant", "price": "12.16" },
+      { "name": "sushi", "price": "6.55" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "best" },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": ":(" },
+      { "rating": 4, "text": "foi realmente ótimo" }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "testEntry79",
+    "latitude": 53.61675768558093,
+    "longitude": 9.800473477367284,
+    "phonenumber": "+49 24357906",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "gemüse", "price": "7.05" },
+      { "name": "bagel", "price": "3.51" },
+      { "name": "donut", "price": "11.58" },
+      { "name": "sushi", "price": "10.03" },
+      { "name": "schnitzel", "price": "5.88" },
+      { "name": "baguette", "price": "14.72" },
+      { "name": "bockwurst", "price": "7.56" },
+      { "name": "reis", "price": "3.55" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "lecker wie immer" },
+      {
+        "rating": 5,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 1, "text": "ok" },
+      { "rating": 5, "text": ":(" },
+      { "rating": 2, "text": ":(" }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "testEntry80",
+    "latitude": 53.589697884374395,
+    "longitude": 9.756558612781944,
+    "phonenumber": "+49 97018208",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 2,
+    "menu": [
+      { "name": "schnitzel", "price": "4.01" },
+      { "name": "fritten", "price": "15.30" },
+      { "name": "fritten", "price": "3.48" },
+      { "name": "döner", "price": "9.57" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": ":)" },
+      { "rating": 1, "text": "nö" },
+      { "rating": 4, "text": "ok" },
+      { "rating": 1, "text": "nö" },
+      { "rating": 3, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "testEntry81",
+    "latitude": 53.501338713032126,
+    "longitude": 9.641611606042867,
+    "phonenumber": "+49 24570071",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 1,
+    "menu": [
+      { "name": "bratwurst", "price": "8.37" },
+      { "name": "fritten", "price": "7.08" },
+      { "name": "sushi", "price": "19.45" },
+      { "name": "fisch", "price": "8.71" },
+      { "name": "pizza", "price": "13.63" },
+      { "name": "bockwurst", "price": "5.28" },
+      { "name": "salat", "price": "3.81" },
+      { "name": "möhren", "price": "10.80" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "ok" },
+      { "rating": 1, "text": ":(" },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "testEntry82",
+    "latitude": 53.62742352421224,
+    "longitude": 9.596223134954167,
+    "phonenumber": "+49 69520418",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 3,
+    "menu": [
+      { "name": "burger", "price": "18.06" },
+      { "name": "getränk", "price": "19.36" },
+      { "name": "croque", "price": "4.75" },
+      { "name": "braten", "price": "5.95" },
+      { "name": "croissant", "price": "19.65" },
+      { "name": "braten", "price": "7.08" },
+      { "name": "rind", "price": "17.77" },
+      { "name": "kuchen", "price": "10.97" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "lecker wie immer" },
+      {
+        "rating": 1,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 3, "text": "nie werder" },
+      { "rating": 2, "text": "mit einem lächeln serviert" },
+      { "rating": 5, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      { "rating": 3, "text": "mit einem lächeln serviert" }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "testEntry83",
+    "latitude": 53.593212710013134,
+    "longitude": 9.881032718433838,
+    "phonenumber": "+49 85913914",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "bockwurst", "price": "8.81" },
+      { "name": "donut", "price": "6.81" },
+      { "name": "fisch", "price": "13.66" },
+      { "name": "croissant", "price": "7.66" },
+      { "name": "thai", "price": "12.26" },
+      { "name": "schnitzel", "price": "19.55" },
+      { "name": "fritten", "price": "16.71" },
+      { "name": "bowl", "price": "14.52" },
+      { "name": "fisch", "price": "9.01" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      {
+        "rating": 4,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 2,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 4, "text": "nie werder" }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "testEntry84",
+    "latitude": 53.600104728516456,
+    "longitude": 9.70590340270665,
+    "phonenumber": "+49 56294921",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "braten", "price": "17.41" },
+      { "name": "Brötchen", "price": "17.12" },
+      { "name": "thai", "price": "15.30" },
+      { "name": "croissant", "price": "13.75" },
+      { "name": "hähnchen", "price": "13.94" }
+    ],
+    "ratings": [
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 2,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 1, "text": "ok" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 3, "text": "foi realmente ótimo" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      {
+        "rating": 5,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "testEntry85",
+    "latitude": 53.6711223636706,
+    "longitude": 9.5859689724691,
+    "phonenumber": "+49 29678249",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "suppe", "price": "3.57" },
+      { "name": "thai", "price": "19.97" },
+      { "name": "gemüse", "price": "3.14" },
+      { "name": "möhren", "price": "19.53" },
+      { "name": "lasagne", "price": "18.62" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "nie werder" },
+      {
+        "rating": 4,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 5, "text": "personal geht gar nicht" },
+      {
+        "rating": 3,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      { "rating": 1, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "testEntry86",
+    "latitude": 53.64400656124559,
+    "longitude": 9.714464176226587,
+    "phonenumber": "+49 69734876",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/6108e9f1c5f9f_json_image_1627974129.webp",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 1,
+    "menu": [
+      { "name": "hähnchen", "price": "7.53" },
+      { "name": "brot", "price": "15.95" },
+      { "name": "franzbrötchen", "price": "10.99" },
+      { "name": "fritten", "price": "14.66" },
+      { "name": "thai", "price": "15.31" },
+      { "name": "nudeln", "price": "11.21" },
+      { "name": "bockwurst", "price": "3.02" },
+      { "name": "rind", "price": "7.81" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 5, "text": "ok" },
+      {
+        "rating": 5,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "testEntry87",
+    "latitude": 53.65021140023834,
+    "longitude": 9.704768096871703,
+    "phonenumber": "+49 88905303",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/610bc8e1a4bee_json_image_1628162273.webp",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "fritten", "price": "6.39" },
+      { "name": "bockwurst", "price": "16.79" },
+      { "name": "suppe", "price": "18.66" },
+      { "name": "suppe", "price": "16.31" },
+      { "name": "braten", "price": "16.73" },
+      { "name": "burger", "price": "8.81" },
+      { "name": "reis", "price": "13.94" },
+      { "name": "baguette", "price": "16.96" },
+      { "name": "gemüse", "price": "11.58" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      {
+        "rating": 2,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 5,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "testEntry88",
+    "latitude": 53.63498348674526,
+    "longitude": 9.601565041187971,
+    "phonenumber": "+49 66962764",
+    "logo": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5f0948733248d_template_image_1594443891.webp",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 3,
+    "menu": [
+      { "name": "reis", "price": "12.27" },
+      { "name": "croque", "price": "15.11" },
+      { "name": "hähnchen", "price": "15.66" },
+      { "name": "baguette", "price": "11.52" },
+      { "name": "schnitzel", "price": "15.92" },
+      { "name": "gemüse", "price": "18.56" },
+      { "name": "burger", "price": "12.06" },
+      { "name": "salat", "price": "18.05" }
+    ],
+    "ratings": [
+      {
+        "rating": 1,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 1, "text": ":)" },
+      { "rating": 1, "text": "nie werder" },
+      { "rating": 5, "text": "best" },
+      {
+        "rating": 3,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 4, "text": "mit einem lächeln serviert" }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "testEntry89",
+    "latitude": 53.487905277699646,
+    "longitude": 9.877255292946899,
+    "phonenumber": "+49 14724538",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://muehlensteinwedel.de/wp-content/uploads/2019/06/2019-06-11-Restaurant-M%C3%BChlenstein-Wedel-Burger-Pizza-Brunch-Mittagstisch-Biggest-Burger-Wedel.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "burger", "price": "6.41" },
+      { "name": "baguette", "price": "18.02" },
+      { "name": "lachs", "price": "12.30" },
+      { "name": "donut", "price": "10.92" },
+      { "name": "möhren", "price": "17.92" },
+      { "name": "reis", "price": "16.38" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": ":)" },
+      { "rating": 1, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "super bester typ der koch" },
+      { "rating": 2, "text": "best" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "testEntry90",
+    "latitude": 53.650507811381,
+    "longitude": 9.708470071016514,
+    "phonenumber": "+49 86356240",
+    "logo": "https://images.vexels.com/media/users/3/128437/isolated/lists/2dd809b7c15968cb7cc577b2cb49c84f-pizza-food-restaurant-logo.png",
+    "picture": "https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/PorscheMuseum/06Gastronomie/13-5_Christophorus_001-Hero_Christophorus.jpg?rev=f5cfde738a584a28aa3bb5befaae7f1d&w=1299",
+    "price_range": 2,
+    "menu": [
+      { "name": "ente", "price": "8.76" },
+      { "name": "bratwurst", "price": "19.34" },
+      { "name": "bagel", "price": "6.05" },
+      { "name": "fisch", "price": "8.91" },
+      { "name": "reis", "price": "18.48" },
+      { "name": "lachs", "price": "14.06" },
+      { "name": "ente", "price": "8.63" },
+      { "name": "lasagne", "price": "20.00" }
+    ],
+    "ratings": [
+      { "rating": 1, "text": "nö" },
+      { "rating": 5, "text": "lecker wie immer" },
+      { "rating": 1, "text": "nie werder" },
+      { "rating": 5, "text": ":)" },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 5, "text": "foi realmente ótimo" },
+      {
+        "rating": 4,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      { "rating": 2, "text": "kein nutella !!!111!!11!1" }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "testEntry91",
+    "latitude": 53.54774985771044,
+    "longitude": 9.813503471767248,
+    "phonenumber": "+49 22338169",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://media-cdn.tripadvisor.com/media/photo-s/22/33/a4/94/caption.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "lasagne", "price": "18.27" },
+      { "name": "schnitzel", "price": "17.39" },
+      { "name": "baguette", "price": "17.49" },
+      { "name": "schnitzel", "price": "7.59" },
+      { "name": "sushi", "price": "16.18" },
+      { "name": "pizza", "price": "17.33" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "ok" },
+      { "rating": 3, "text": "mit einem lächeln serviert" },
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      { "rating": 4, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      {
+        "rating": 3,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 4, "text": ":(" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 5, "text": "best" }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "testEntry92",
+    "latitude": 53.6318181998196,
+    "longitude": 9.58650409562679,
+    "phonenumber": "+49 40265086",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://www.europapark.de/sites/default/files/import/gastronomy/715/harborside_bell_rock_01.jpg",
+    "price_range": 1,
+    "menu": [
+      { "name": "schnitzel", "price": "15.43" },
+      { "name": "gemüse", "price": "17.57" },
+      { "name": "burger", "price": "10.28" },
+      { "name": "rind", "price": "8.77" }
+    ],
+    "ratings": [
+      { "rating": 4, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "lecker wie immer" },
+      { "rating": 5, "text": ":)" },
+      { "rating": 1, "text": ":(" }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "testEntry93",
+    "latitude": 53.635040240030975,
+    "longitude": 9.812196953315256,
+    "phonenumber": "+49 23233883",
+    "logo": "https://i.pinimg.com/474x/59/69/a9/5969a97e1f7773da34bfb30c47a52c2b.jpg",
+    "picture": "https://www.restaurant-filterhaus.de/wp-content/uploads/2019/09/Restaurant-Filterhaus-Terrasse-Abend2-1900x1021.jpg",
+    "price_range": 3,
+    "menu": [
+      { "name": "bockwurst", "price": "18.83" },
+      { "name": "sushi", "price": "8.02" },
+      { "name": "bowl", "price": "11.83" },
+      { "name": "nudeln", "price": "13.42" },
+      { "name": "franzbrötchen", "price": "10.82" },
+      { "name": "kuchen", "price": "11.51" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 5,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 1,
+        "text": "I am from the UK and visited the cafe with a friend two weeks ago. While the food and setting were lovely, the way we were treated by a member of staff ruined the whole experience. When we went inside to choose a cake, we were confronted with a leering, arrogant, obnoxious lady. She told us, in a very condescending manner, that we didn't need to wear masks. It should be noted that she was the ONLY member of staff not wearing one! We stated that out of consideration for others, we would prefer to wear them. For this she seems to have took an immediate dislike to us. When we complained that the coffee she served us was cold, she proceeded to make passive aggressive remarks and derogatory comments about us to other colleagues. These were overheard by my friend who is a lot more proficient in German than I am, and who understood every word. Sadly we felt uncomfortable the entire time and made an early exit."
+      },
+      { "rating": 3, "text": "ok" },
+      { "rating": 3, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 4, "text": "ok" }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "testEntry94",
+    "latitude": 53.51569113838025,
+    "longitude": 9.65447991033513,
+    "phonenumber": "+49 34390143",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFdW6420U5NXLKqDOVY9OfBImWUq-C8AgGw&usqp=CAU",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "lasagne", "price": "9.06" },
+      { "name": "ketchup", "price": "9.83" },
+      { "name": "salat", "price": "14.59" },
+      { "name": "braten", "price": "7.93" },
+      { "name": "schnitzel", "price": "18.20" },
+      { "name": "donut", "price": "13.63" },
+      { "name": "lachs", "price": "8.36" },
+      { "name": "schnitzel", "price": "4.44" }
+    ],
+    "ratings": [
+      { "rating": 3, "text": "nö" },
+      { "rating": 3, "text": "ok" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 1, "text": "lecker wie immer" },
+      { "rating": 3, "text": ":(" },
+      { "rating": 2, "text": "freundlichee behandelt hier" },
+      {
+        "rating": 2,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 4,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "testEntry95",
+    "latitude": 53.614305427874015,
+    "longitude": 9.786005674262134,
+    "phonenumber": "+49 70885636",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207387.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5ucdZ3zelEkM5TO1jKW2XjKFTKN1LGYZyA&usqp=CAU",
+    "price_range": 1,
+    "menu": [
+      { "name": "senf", "price": "16.96" },
+      { "name": "salat", "price": "18.53" },
+      { "name": "lachs", "price": "7.06" },
+      { "name": "bratwurst", "price": "15.50" },
+      { "name": "suppe", "price": "11.76" },
+      { "name": "senf", "price": "3.66" }
+    ],
+    "ratings": [
+      { "rating": 2, "text": "foi realmente ótimo" },
+      { "rating": 3, "text": "ok" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 5, "text": "ok" },
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      { "rating": 2, "text": "schöne wanddeko und essen ist auch im rahmen" }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "testEntry96",
+    "latitude": 53.631774437014414,
+    "longitude": 9.848882835399841,
+    "phonenumber": "+49 75684408",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207389.png",
+    "picture": "https://roots-halle.de/wp-content/uploads/2022/12/restaurant-roots-halle-saale-moderne-kueche",
+    "price_range": 3,
+    "menu": [
+      { "name": "franzbrötchen", "price": "7.02" },
+      { "name": "gemüse", "price": "11.29" },
+      { "name": "gemüse", "price": "9.78" },
+      { "name": "burger", "price": "4.33" },
+      { "name": "möhren", "price": "15.60" },
+      { "name": "croissant", "price": "8.10" },
+      { "name": "rind", "price": "3.05" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": ":(" },
+      { "rating": 2, "text": ":)" },
+      { "rating": 4, "text": ":(" },
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "foi realmente ótimo" },
+      { "rating": 2, "text": "nö" },
+      { "rating": 4, "text": ":(" }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "testEntry97",
+    "latitude": 53.57206178726874,
+    "longitude": 9.590029105212507,
+    "phonenumber": "+49 55064522",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmziKfGuCX3JWOETJSuiDSGIC5Hb6nd18ItQ&usqp=CAU",
+    "price_range": 2,
+    "menu": [
+      { "name": "bowl", "price": "12.41" },
+      { "name": "sushi", "price": "11.64" },
+      { "name": "salat", "price": "18.53" },
+      { "name": "senf", "price": "11.48" },
+      { "name": "fishbrötchen", "price": "8.18" },
+      { "name": "franzbrötchen", "price": "10.83" },
+      { "name": "reis", "price": "18.14" },
+      { "name": "sushi", "price": "7.75" }
+    ],
+    "ratings": [
+      { "rating": 5, "text": "nie werder" },
+      { "rating": 1, "text": "kein nutella !!!111!!11!1" },
+      { "rating": 3, "text": "personal geht gar nicht" },
+      {
+        "rating": 1,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      },
+      { "rating": 1, "text": "best" },
+      { "rating": 2, "text": "ok" },
+      { "rating": 4, "text": "nie werder" },
+      { "rating": 3, "text": "freundlichee behandelt hier" }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "testEntry98",
+    "latitude": 53.65593689609951,
+    "longitude": 9.810792910468463,
+    "phonenumber": "+49 45779554",
+    "logo": "https://cdn-icons-png.flaticon.com/256/7207/7207386.png",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW1jRyCHuhOGpIh0Vt9d8ULoZCrARhhq0A&usqp=CAU",
+    "price_range": 3,
+    "menu": [
+      { "name": "lachs", "price": "6.53" },
+      { "name": "essig", "price": "9.35" },
+      { "name": "fritten", "price": "13.48" },
+      { "name": "fisch", "price": "6.75" },
+      { "name": "croque", "price": "10.16" }
+    ],
+    "ratings": [
+      {
+        "rating": 2,
+        "text": "bester ketchup aber die luftfeuchtigkeit lag bei über 45% :("
+      },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 5, "text": "freundlichee behandelt hier" },
+      { "rating": 3, "text": ":(" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 4, "text": "lecker wie immer" },
+      { "rating": 5, "text": "best" },
+      { "rating": 5, "text": "personal geht gar nicht" }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "testEntry99",
+    "latitude": 53.54852057017982,
+    "longitude": 9.890349764993125,
+    "phonenumber": "+49 65512416",
+    "logo": "https://cdn-icons-png.flaticon.com/256/8124/8124851.png",
+    "picture": "https://restaurantfriedrich.de/wp-content/uploads/2017/11/friedrich_header_startseite_1-1200x677.jpg",
+    "price_range": 2,
+    "menu": [
+      { "name": "bowl", "price": "17.04" },
+      { "name": "senf", "price": "8.67" },
+      { "name": "ente", "price": "15.61" },
+      { "name": "croissant", "price": "11.49" },
+      { "name": "sushi", "price": "18.06" }
+    ],
+    "ratings": [
+      {
+        "rating": 3,
+        "text": "hat schlecht angefangen und dann noch stark abgelassen"
+      },
+      {
+        "rating": 5,
+        "text": "Absolut empfehlenswert. Bei einem Imbiss sind mir Sauberkeit und Qualität sehr wichtig, beides ist hier perfekt - und das Team ist sehr freundlich. Von Blankenese nach Altona kann es wegen eines Döners auch nicht immer sein, insofern bin ich froh, dass es hier so gut geschmeckt hat. Nächstes Mal probiere ich die Pizza, die soll auch sehr gut sein."
+      },
+      { "rating": 1, "text": "ok" },
+      { "rating": 1, "text": "lecker wie immer" },
+      {
+        "rating": 5,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      { "rating": 5, "text": "mit einem lächeln serviert" },
+      { "rating": 5, "text": "schöne wanddeko und essen ist auch im rahmen" },
+      { "rating": 1, "text": "best" },
+      {
+        "rating": 1,
+        "text": "Was kann man nich dazu sagen, vergammelte Borek!!!!! Nur für Gesundheits Inspektion"
+      },
+      {
+        "rating": 3,
+        "text": "Leider war der Mixteller richtig schlecht. Irgendwelche nicht definierbare Fleischstücke die tiefgefroren in die Fritteuse geworfen dadurch blubberte das Heiße Fett ordentlich und die Geräuschkulisse war extrem laut. Das Kebabfleisch war lauwarm nur die Pommes-frites waren heiß.. Das alleine reicht aber nicht um ein zweites Mal dort hinzugehen. SCHADE, aber wahrscheinlich üben die Besitzer noch.."
+      }
+    ]
+  }
 ]
