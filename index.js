@@ -6,7 +6,7 @@ const app = express()
 const port = process.env.PORT || 3000;
 const data = require('./data/locations.json')
 const sortMethods = ["distance", "rating", "price", "popularity"]
-const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware", "Sauce", "Dip"]
+const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware", "Sauce", "Dip", "Gewürz", "Zutat"]
 
 app.get('/getRestaurants', async (req, res) => {
     const latitude = req.query.latitude
