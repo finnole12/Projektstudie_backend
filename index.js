@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 const haversine = require('haversine-distance')
 
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 3000;
 const data = require('./data/locations.json')
 const sortMethods = ["distance", "rating", "price", "popularity"]
 const relevantSuperSynsets = ["Essen", "Gericht", "Mahlzeit", "Speise", "Sättigungsbeilage", "Backware", "Sauce", "Dip"]
