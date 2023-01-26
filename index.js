@@ -89,9 +89,9 @@ function rejectBadInput(res, longitude, latitude, radius, limit, offset, sortBy)
     })
 
     // Wrong Values
-    if (limit < 0 || limit > 50) res.status(400).send({
+    if (limit < 0 || limit > 100) res.status(400).send({
         status: 400,
-        message: "Wrong Value: limit must be in range 0..50"
+        message: "Wrong Value: limit must be in range 0..100"
     })
     if (radius < 0) res.status(400).send({
         status: 400,
