@@ -147,7 +147,7 @@ function filterSearchTerm(selection, searchTerms) {
     
     // set highlight and avg_rating
     menuSelection.forEach(selection => {
-        selection.highlight = highlightMap.has(selection.id) && highlightMap.get(selection.id).length === searchTerms.length
+        selection.highlight = searchTerms.length != 1 && highlightMap.has(selection.id) && highlightMap.get(selection.id).length === searchTerms.length
         selection.avg_rating = selection.ratings.reduce((sum, current) => {
             return sum + current.rating
         }, 0) / selection.ratings.length
